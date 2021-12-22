@@ -1,0 +1,36 @@
+{
+  "name": "webflem",
+  "version": "0.1.11",
+  "description": "",
+  "main": "webflem-server/app.js",
+  "scripts": {
+    "test": "true",
+    "start:server": "nodemon webflem-server/app.js",
+    "start": "node webflem-server/app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.7.3",
+    "nodemailer": "^6.3.1",
+    "path": "^0.12.7"
+  },
+  "engines": {
+    "node": "12.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prabhanshuchauhan/webflem.git"
+  },
+  "author": "Erevna Enterprises",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prabhanshuchauhan/webflem/issues"
+  },
+  "homepage": "https://github.com/prabhanshuchauhan/webflem#readme"
+}

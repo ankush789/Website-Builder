@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+- stable
+cache:
+  directories:
+  - node_modules
+deploy:
+  provider: heroku
+  api_key:
+    secure: dE4R5+fkZEXM1em1hmnJL1jtdZyZ4UAKdLi285wgM/0GCZ0DrWNI4id8dPlf9hspQmoiZnQ+PXMZ/ay8Yf2oMNpe7YBA2H2Airu15viGSOhQgyxrNWCdp68pWK57hbYcUmzG9/yeRfHKphfnKigVB7/UXBn4O1//5odlLNPxCUfHbHpMgiqtTZb4WlmRu0+wltTj5e5DxwDPxrbHZ31eS74wuHRwkdbxbtxN4+jtqTuVY23j0kUEbXIhW+f5vHuAvTZHF4xjATld9yKKC/7N1NB4jsCasNyMPFpTg6rSBrQOmp3pl82ooQGb2P6LBV9EOuPKk6YoGDIcUCyeSros7Sx9eMNpdyjpdNBFYz8LKd+MbwTYyHtI+bruL1W0a7VdU1inAUrBVzD6ZLkx1JcvSImCozuipLCDxhlAQO67U1j6qMv6/Hu3K0KQvhd46KviWGnAf5roeUS2TpnJNUwNMzGd5dlbbBrvCU4tjZc0E+LGwa39Ftp3iTNJ3Um8HHh0H+XQDN7UebufXscPb0os/1coQWM6CEHKVy7g69pX0lJws7iYvfI3u1zXUiA9LmsdKe4TLp9+xTeEKG3+AP4KxJ90rSNcCVQkgSFZU6f3AB4gMUcbP7QyPiqSdviVfBWPtc9CJzSnwzAldBw2zByF2+UAEfgWsC2znCdULfYnR+A=
+  app:
+    master: webflem
+    stagging: test-webflem
+  on:
+    repo: prabhanshuchauhan/webflem
